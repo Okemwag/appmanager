@@ -15,15 +15,14 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.AsyncImage
-import com.example.appmanager.domain.model.InstalledApp
-import com.example.appmanager.presentation.viewmodel.AppListViewModel
+import com.okemwag.appmanager.domain.model.InstalledApp
+import com.okemwag.appmanager.presentation.viewmodel.AppListViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

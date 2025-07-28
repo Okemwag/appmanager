@@ -21,7 +21,7 @@ fun AnimatedCounter(
     AnimatedContent(
         targetState = count,
         transitionSpec = {
-            slideInVertically { it } with slideOutVertically { -it }
+            slideInVertically { it } togetherWith  slideOutVertically { -it }
         },
         modifier = modifier
     ) { targetCount ->
